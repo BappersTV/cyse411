@@ -6,7 +6,7 @@ on:
   #push:
   # branches: [main]
 jobs:
-  zap-scan:
+  zap_scan:
     runs-on: ubuntu-latest
     
     steps:
