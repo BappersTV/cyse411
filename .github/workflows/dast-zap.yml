@@ -8,6 +8,7 @@ on:
 jobs:
   zap-scan:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,7 +19,7 @@ jobs:
           node-version: '20'
 
       - name: Install lab dependencies
-        working-directory: fastbank_insecure_classowrk/backend
+        working-directory: fastbank_insecure_classwork/backend
         run: |
           npm install
 
