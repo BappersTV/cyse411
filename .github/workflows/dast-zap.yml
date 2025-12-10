@@ -5,6 +5,8 @@ on:
   # You can also add:
   #  push:
   #    branches: [main]
+permission:
+  contents: read
     
 jobs:
   zap_scan:
