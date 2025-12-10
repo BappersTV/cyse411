@@ -2,16 +2,17 @@ name: SAST - Semgrep
 
 on:
   push:
-    branches: [ main ]
+    branches: [ 'main' ]
   pull_request:
+    branches: ['main']
 
 jobs:
   semgrep:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read             # allows repo read
-      security-events: write     # allows uploading SARIF to Security tab
+      contents: read             
+      security-events: write     
 
     steps:
       - name: Checkout repository
