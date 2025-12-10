@@ -5,7 +5,7 @@ on:
   # You can also add:
   #  push:
   #    branches: [main]
-permission:
+permissions:
   contents: read
     
 jobs:
